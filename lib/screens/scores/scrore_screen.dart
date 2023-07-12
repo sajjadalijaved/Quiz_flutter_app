@@ -1,8 +1,10 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quiz_app/constrants.dart';
 import 'package:quiz_app/controllers/question_controller.dart';
-import 'package:quiz_app/screens/quiz/quiz_screen.dart';
+
 import 'package:quiz_app/screens/welcome/welcome_screen.dart';
 import 'package:websafe_svg/websafe_svg.dart';
 

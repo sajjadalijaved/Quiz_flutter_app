@@ -22,6 +22,7 @@ class QuestionCard extends StatelessWidget {
     padding: const EdgeInsets.all(kDefaultPadding),
     decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.circular(25)),
     child: Column(children: [
+      // ignore: deprecated_member_use
       Text(question.question,style: Theme.of(context).textTheme.headline6!.copyWith(color: kBlackColor),),
       const SizedBox(height: kDefaultPadding / 2),
     ...List.generate(question.options.length,

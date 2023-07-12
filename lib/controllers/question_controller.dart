@@ -1,6 +1,7 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/state_manager.dart';
 import 'package:quiz_app/constrants.dart';
 import 'package:quiz_app/models/Questions.dart';
 
@@ -93,7 +94,7 @@ int get numOfCorrectAns => this._numOfCorrectAns;
       
       _animationController.forward().whenComplete(nextQuestion);
     }else {
-      // Get package provide us simple way to naviigate another page
+      // Get package provide us simple way to navigate another page
       Get.to(const ScoreScreen());
     }
   }
